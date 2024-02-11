@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="TitleSignUpAppearance" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/title_sign_up</item>
+    </style>
+
+    <style name="TitleLists" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Headline6Logo" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/baloo</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/material_gray</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@android:color/darker_gray</item>
+        <item name="layout_collapseMode">pin</item>
+    </style>
+
+    <style name="ToolbarBackgroundTint">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="GoogleButtonStyle">
+        <item name="android:drawableStart">@drawable/googleg_standard_color_18</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/common_signin_button_text_long</item>
+        <item name="android:background">@drawable/common_google_signin_btn_text_dark_normal</item>
+    </style>
+
+    <style name="GithubButtonStyle">
+        <item name="android:drawableLeft">@drawable/ic_github</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+
+</resources>
